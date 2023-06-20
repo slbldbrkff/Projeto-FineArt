@@ -1,0 +1,350 @@
+/*   RESET DAS PROPRIEDADES GERAIS DO SITE   */
+*{  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{   
+    scroll-behavior: smooth;
+}
+
+/*   PROPRIEDADES GERAIS DO SITE   */
+body{   
+    font-family: arial, halvetica, sans-serif;
+}
+ul{ 
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    font-weight: bold;
+}
+a img {
+    transition: transform 0.3s ease-in-out;
+}  
+a:hover img {
+    transform: scale(1.05);
+}
+.frase{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+/* CABEÇALHO */
+header{ 
+    display: flex;
+    font-style: normal;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 5px 60px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+}
+.redesocial{
+    margin-top: 1%;
+}
+.logomarca{
+    align-items: center;
+    border-radius: 50%;
+}   
+.contacli{
+    margin-top: 12px;
+}
+.contaclibold{
+    margin-top: 12px;
+    font-weight: bold;
+}
+.cliente{
+    margin-top: 1%;
+    display: flex;
+    width: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.menugeral a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+
+/* LINHAS */
+.linhameio{
+    justify-content: space-between;
+    background-color: #000000;
+    margin: 8px 0px;
+    padding: 1px;
+}
+.linhabase{
+    justify-content: space-between;
+    background-color: #000000;
+    margin: 8px 0px 30px 0px;
+    padding: 1px;
+}
+
+
+/* LINKS */
+.menugeral{
+    display: flex;
+    color: #000000;
+}
+.menusobre{
+    align-items: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.menusobrebold{
+    align-items: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+}
+.menufac{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+.menuf1{
+    margin: 0% 19% 0% 19%;
+}
+.menuf1bold{
+    margin: 0% 19% 0% 19%;
+    font-weight: bold;
+}
+.menua1{
+    margin: 0% 19% 0% 19%;
+}
+.menua1bold{
+    margin: 0% 19% 0% 19%;
+    font-weight: bold;
+    
+}
+.menuc1{
+    margin: 0% 19% 0% 19%;
+}
+.menuc1bold{
+    margin: 0% 19% 0% 19%;
+    font-weight: bold;
+}
+
+/* INDEX */
+.descricao{
+    margin: 60px 0px 0px 30px;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 19px;
+}
+.blocoindex{
+    background-color: #000000;
+    border: 30px solid black;
+    width: 97%;
+    height: 810px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.corpo1{
+    align-items: center;
+    max-width: 100%;
+    background-image: url('Imagens/Cidade - Lisboa - capa.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 83vh;
+}
+.corpo2{
+    align-items: center;
+    max-width: 100%;
+    background-image: url('Imagens/Arte - Igrejinha - 1920.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 83vh;
+}
+.corpo3{
+    align-items: center;
+    max-width: 100%;
+    background-image: url('Imagens/ONDEMAND.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 83vh;
+}
+
+/* FINEART */
+.pesquisa input[type="text"]{
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    margin: 60px 590px 45px 590px;
+    border: 1px solid black;
+    width: 450px;
+    resize: horizontal;
+    height: 50px;
+    resize: vertical;
+}
+.bodyfineart{
+    margin: 30px;
+}
+.titulofineart{
+    margin: 30px 0px 0px 0px;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 19px;
+}
+.blocofineart{
+    border: 1px solid black;
+    height: 384px;
+    display: flex;
+}
+.molduraimagenbloco{
+    margin: 10px 20px;
+    width: 480px;
+    height: 320px;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenfineart1{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenfineart2{
+    max-width: 460px;
+    max-height: 300px;
+}
+.blococomprar{
+    height: 30px;
+    display: flex;
+    margin: -43px 0px 0px 0px;
+}
+.btninvestir{
+    margin: 0px 200px 0px 200px;
+    width: 100px;
+    height: 30px;
+    padding: -100px;
+}
+.espacobtninvestir{
+    margin: 13px; 
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sobre.html */
+.paragrafosobre{
+    margin: 60px 180px 60px 180px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-indent: 45px;
+}
+.imagemsobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.legendafoto{
+    margin: 0px 0px 0px 1167px;
+}
+
+/* artistas.html e criativo.html */
+.bodyac{
+    text-align: center;
+}
+.campos input[type="text"]{
+    margin-top: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    width: 300px;
+    resize: horizontal;
+    height: 30px;
+    resize: vertical;
+    text-align: center;
+    padding: 10px;
+    text-decoration: #9d9d9d;
+}
+.mensagem input[type="text"] {
+    width: 800px;
+    border: 1px solid black;
+    resize: horizontal;
+    height: 60px;
+    resize: vertical;
+    font-size: 15px;
+    text-align: center;
+}
+.btn_arquivo {
+    justify-content: center;
+    font-size: 13px;
+    align-items: center;
+    width: 300px;
+    resize: horizontal;
+    height: 30px;
+    resize: vertical;
+    text-decoration: #9d9d9d;
+}
+.btnfile {
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+    width: 300px;
+    resize: horizontal;
+    height: 30px;
+    resize: vertical;
+}
+.btn_formulario{
+    margin: 0px 200px 0px 200px;
+    border: 1px solid black;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    padding: -100px;
+}
+.paragrafoac{
+    margin: 20px 240px 20px 240px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+    text-indent: 45px;
+}
+
+/* cliente.html */
+.contacliente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER */
+footer{
+    background-color: #000000;
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+    align-items: end;
+}
+footerform{
+    background-color: #000000;
+    padding: 50px 599px 50px 599px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+    align-items: end;
+    position: absolute;
+    bottom: 0;
+}
